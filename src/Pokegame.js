@@ -184,7 +184,7 @@ class Pokegame extends Component {
         return(
             <div className="Pokegame-field">
                 <h1>Entrez dans l'arène!</h1>
-                <a className="Pokegame-link" href="/">Commencer la partie</a>
+                <a className="Pokegame-link" href="/pokedex">Commencer la partie</a>
                 <Pokedex player={player1} pokemon={hand1} exp={exp1} isWinner={exp1 > exp2} />
                 <Pokedex player={player2} pokemon={hand2} exp={exp2} isWinner={exp2 > exp1} />
             </div>
